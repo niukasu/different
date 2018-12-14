@@ -4,6 +4,6 @@ import LeaseList from '../components/lease_list';
 
 it('render without crashing', () => {
   const div = document.createElement('div');
-  ReactDom.render(<LeaseList />, div);
+
   ReactDom.unmountComponentAtNode(div);
 })
